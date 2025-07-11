@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.music-player {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  width: 500px;              /* ⬅️ Increase width */
+  max-width: 90vw;
+  transition: all 0.3s ease;
+}
+
+
+.music-player img {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  background: #fff;
+  color: #333;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #ddd;
+}
+
+.progress-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#progress {
+  flex-grow: 1;
+}
+
+.volume-control {
+  margin-top: 15px;
+}
